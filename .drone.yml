@@ -1,5 +1,5 @@
   pipeline:
     build:
-     #image:centos
+     image:centos:7
      commands:
      - echo 'test'
