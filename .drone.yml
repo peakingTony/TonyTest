@@ -2,18 +2,3 @@ clone:
   git:
     image: plugins/git
     depth: 1
-pipeline:
-  build_step:
-    image: plugins/docker
-    username: ijiankang@ihealthlabs.com.cn
-    password: iHealthStrategy2018
-    registry: registry.cn-beijing.aliyuncs.com
-    repo: registry.cn-beijing.aliyuncs.com/ihealthlabs/dodgy-dove1
-    mirror: 'https://t8ngg3ge.mirror.aliyuncs.com'
-    tag:
-      - '${DRONE_BUILD_NUMBER}'
-      - latest
-    dockerfile: Dockerfile
-    when:
-      branch: develop
-      event: push
