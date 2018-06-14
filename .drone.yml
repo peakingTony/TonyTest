@@ -6,7 +6,7 @@ clone:
     image: plugins/git
     depth: 1
     volumes:
-    - /tony
+    - /data/tonytmp
 pipeline:
   build_step:
     image: plugins/docker
