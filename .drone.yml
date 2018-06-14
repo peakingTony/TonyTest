@@ -1,3 +1,6 @@
+workspace:
+  base: /tony
+  path: gitmulu
 clone:
   git:
     image: plugins/git
