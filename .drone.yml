@@ -1,19 +1,14 @@
-workspace:
-  base: /tony
-  path: gitmulu
 clone:
   git:
     image: plugins/git
     depth: 1
-    volumes:
-    - /data/tonytmp
 pipeline:
   build_step:
     image: plugins/docker
-    username: ijiankang@ihealthlabs.com.cn
-    password: iHealthStrategy2018
-    registry: registry.cn-beijing.aliyuncs.com
-    repo: registry.cn-beijing.aliyuncs.com/ihealthlabs/dodgy-dove1
+    username: admin
+    password: Harbor12345
+    registry: 120.92.208.210:8099
+    repo: 120.92.208.210:8099/tony/library
     mirror: 'https://t8ngg3ge.mirror.aliyuncs.com'
     tag:
       - '${DRONE_BUILD_NUMBER}'
