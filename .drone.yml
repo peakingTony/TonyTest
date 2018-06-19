@@ -5,7 +5,7 @@ clone:
 pipeline:
   build_step:
     image: plugins/docker:17.05
-    username: tony
+    username: 18211017703@163.com
     password: 51Testing
     registry: http://120.92.208.210:8099
     repo: http://120.92.208.210:8099/library/testTony
