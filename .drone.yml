@@ -17,6 +17,7 @@ pipeline:
     when:
       branch: master
       event: push
+      status: [ success ]
    jenkins:
     image: appleboy/drone-jenkins
     url: http://172.31.48.2:8080
