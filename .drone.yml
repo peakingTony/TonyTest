@@ -4,10 +4,10 @@ clone:
     depth: 1
 pipeline:
   build_step:
-    image: plugins/docker:17.05
+    image: plugins/docker
     username: 18211017703@163.com
     password: 51Testing
-    registry: localhost:8099
+    registry: http://localhost:8099
     repo: localhost:8099/library/testTony
     mirror: 'http://hub-mirror.c.163.com'
     tag:
