@@ -18,7 +18,7 @@ pipeline:
       branch: master
       event: push
 
-   jenkins:
+  jenkins:
     image: appleboy/drone-jenkins
     url: http://172.31.48.2:8080
     user: guanjingtao
