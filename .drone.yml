@@ -5,11 +5,11 @@ clone:
 pipeline:
   build_step:
     image: plugins/docker
-    username: 18211017703@163.com
-    password: 51Testing
-    registry: http://localhost:8099
-    repo: localhost:8099/library/testTony
-    mirror: 'http://hub-mirror.c.163.com'
+    username: ijiankang@ihealthlabs.com.cn
+    password: iHealthStrategy2018
+    registry: harbor.ihealthcn.com
+    repo: harbor.ihealthcn.com/tonytest/nimei
+    mirror: 'https://t8ngg3ge.mirror.aliyuncs.com'
     tag:
       - '${DRONE_BUILD_NUMBER}'
       - latest
