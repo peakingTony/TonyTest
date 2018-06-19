@@ -9,7 +9,7 @@ pipeline:
     password: Harbor12345
     registry: 120.92.208.210:8099
     repo: 120.92.208.210:8099/tony/library
-    mirror: 'https://t8ngg3ge.mirror.aliyuncs.com'
+    mirror: 'http://hub-mirror.c.163.com'
     tag:
       - '${DRONE_BUILD_NUMBER}'
       - latest
