@@ -4,7 +4,7 @@ clone:
     depth: 1
 pipeline:
   build_step:
-    image: plugins/docker
+    image: plugins/docker:17.05
     username: admin
     password: Harbor12345
     registry: 120.92.208.210:8099
