@@ -7,8 +7,8 @@ pipeline:
     image: plugins/docker:17.05
     username: tony
     password: 51Testing
-    registry: 120.92.208.210:8099
-    repo: 120.92.208.210:8099/library/testTony
+    registry: http://120.92.208.210:8099
+    repo: http://120.92.208.210:8099/library/testTony
     mirror: 'http://hub-mirror.c.163.com'
     tag:
       - '${DRONE_BUILD_NUMBER}'
