@@ -4,12 +4,12 @@ clone:
     depth: 1
 pipeline:
   build_step:
-    image: plugins/docker
-    username: ijiankang@ihealthlabs.com.cn
-    password: iHealthStrategy2018
-    registry: registry.cn-beijing.aliyuncs.com
-    repo: registry.cn-beijing.aliyuncs.com/ihealthlabs/dodgy-dove1
-    mirror: 'https://t8ngg3ge.mirror.aliyuncs.com'
+    image: plugins/docker:17.05
+    username: tony
+    password: 51Testing
+    registry: 120.92.208.210:8099
+    repo: 120.92.208.210:8099/library/testTony
+    mirror: 'http://hub-mirror.c.163.com'
     tag:
       - '${DRONE_BUILD_NUMBER}'
       - latest
